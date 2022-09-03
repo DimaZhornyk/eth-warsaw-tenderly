@@ -1,0 +1,21 @@
+account_id: ""
+actions:
+  dimazhornyk/eth-warsaw:
+    runtime: v1
+    sources: actions
+    specs:
+      withdrawZKSync:
+        description: Transaction that withdraws your eth from zksync.
+        function: zksync:withdrawZKSync
+        trigger:
+          type: alert
+          status: 
+            - mined
+      withdrawOptimism:
+        description: Transaction that withdraws your eth from optimism.
+        function: optimism:withdrawOptimism
+        trigger:
+          type: alert
+          status: 
+            - mined
+project_slug: ""
