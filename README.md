@@ -1,6 +1,6 @@
 # ETH WARSAW TENDERLY
 
-### Withdraw funds from L2 when there is a risk of Operator stopping commiting a blocks.
+### Withdraw funds from L2 when there is a risk of Operator stopping committing a blocks.
 
 Every L2 solution uses Operators - accounts that pay for transactions validation on L1. If this account runs out of funds - your tokens are locked on the L2. To prevent this, we use [Tenderly](https://tenderly.co/) actions that transfers all your ETH to the L1 address when operator is running on low funds. 
 
